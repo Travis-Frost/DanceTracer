@@ -12,8 +12,8 @@ Purpose: This project is an attempt to create a tracking system for tracking and
             D) This report will be created in a printable format.  
             E) More will likely be added.
           5) There will be multiple views (tabs??):
-            Initial development will likey be only for the tracker view  
-            A) DJ - this view will allow for 
+            Initial development will likely be only for the tracker view  
+            A) DJ - this view will allow for
               1) Adding and removing entertainers to the dance list
               2) Show if a dance is in a VIP Suite
               3) Future possibility of showing Private Dance status, but not at the moment
@@ -26,16 +26,16 @@ Purpose: This project is an attempt to create a tracking system for tracking and
                 c) Send info to report
                 d) Add timer to Dance List
             C) Director
-              1) Will develope more later
+              1) Will develop more later
             D) Reports
               1) List Entertainers, each entertainer will have the following:
                 a) Entertainer Name
-                b) Rent - clock in day/time 
+                b) Rent - clock in day/time
                 c) # of Dances
                 d) $ amount owed to club by Rent, Dance total, and combination of the two
               2) Will include Wrist Band totals also
-              
-Initial Development is going to concentrate on creating a dance list with the ability to: 
+
+Initial Development is going to concentrate on creating a dance list with the ability to:
   1) Add and remove entertainers
   2) Add and remove VIP Suites per Entertainer
   3) Make the VIP Suite timer visually que that:
