@@ -59,8 +59,15 @@
 
       <div class="main_content row">
         <div class="col-md-4">
-          <h1>Dancer List will go here</h1>
-          <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+          <h1>Dancer List</h1>
+          <p>
+            <label for="new_dancer">Add Dancer</label>
+            <input id="new_dancer" type="text" />
+            <a class="btn btn-success">Add</a>
+          </p>
+          <ul class="dancer_list">
+            <li class="entertainer_list_item"><label>Name</label><button class="edit">Edit</button><button class="delete">Delete</button><button class="half_hour">30 Minutes</button><button class="Full_hour">1 Hour</button></li>
+          </ul>
         </div>
         <div class="dance_tracking col-md-8">
           <h1>Tracking tools will go here</h1>
