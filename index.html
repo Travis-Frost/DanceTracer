@@ -61,12 +61,17 @@
         <div class="col-md-4">
           <h1>Dancer List</h1>
           <p>
-            <label for="new_dancer">Add Dancer</label>
-            <input id="new_dancer" type="text" />
-            <a class="btn btn-success">Add</a>
+            <label for="new_dancer">Add Dancer</label><input id="new_dancer" type="text" /><a class="btn btn-success">Add</a>
           </p>
-          <ul class="dancer_list">
-            <li class="entertainer_list_item"><label>Name</label><button class="edit">Edit</button><button class="delete">Delete</button><button class="half_hour">30 Minutes</button><button class="Full_hour">1 Hour</button></li>
+          <ul class="dancer_list list-group">
+            <li class="list-group-item">
+              <label>Name</label>
+              <button type="button" class="list-group-item-action edit">Edit</button>
+              <button type="button" class="list-group-item-action delete">Delete</button>
+              <button type="button" class="list-group-item-action half_hour">30 Minutes</button>
+              <button type="button" class="list-group-item-action full_hour">1 Hour</button>
+              <button type="button" class="list-group-item-action add_private">Add Private</button>
+            </li>
           </ul>
         </div>
         <div class="dance_tracking col-md-8">
