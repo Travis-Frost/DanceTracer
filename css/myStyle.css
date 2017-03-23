@@ -3,19 +3,16 @@ body {
 }
 
 button {
-
-}
-
-li > label {
-  display: block;
-  font-size: 2em;
+  background-color: white;
+  border-radius: 5px;
 }
 
 label[for="new_dancer"] {
+  display: block;
   color: #333;
   font-weight: 700;
-  font-size: 15px;
-  border-bottom: 2px solid #333;
+  font-size: 2em;
+  border-bottom: 2px;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -36,34 +33,79 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* paly with the margins later
-.container {
-  margin: auto;
-}*/
+input[type="checkbox"] {
+  margin-right: 5px;
+}
 
 .main_content {
+  margin-top: 2em;
   padding: 10px 5px;
   text-align: center;
 }
 
-.dancer_list {
+.dancer_col { /* the whole dancer list */
 
 }
 
 .dance_tracking {
-
+  /* for future use */
 }
 
 .spotify {
   background-image: url("../img/spotify-logo.jpg");
   background-repeat: no-repeat;
   height: 90vh;
+  /* for future use */
 }
 
 .director_tools {
-
+  /* for future use */
 }
 
 .reports {
+  /* for future use */
+}
 
+/* List items */
+
+ul li {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+}
+ul li label {
+  margin-right: 5px;
+  font-size: 1.5em;
+  text-align: left;
+}
+ ul li button {
+  margin-top: 2px;
+ }
+
+#in_vip li {
+  background-color: red;
+}
+
+#not_in_vip li {
+  background-color: lightgreen;
+}
+
+/* Edit LI */
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.edit_mode input[type=text] {
+  display:block;
+}
+
+ul li.edit_mode label {
+  display:none;
+}
+
+ul li.vip_mode label {
+  background-color: blue;
 }

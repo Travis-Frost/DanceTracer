@@ -59,18 +59,31 @@
 
       <div class="main_content row">
         <div class="dancer_col col-md-4">
+          <h1>Dancer List</h1>
           <p>
-            <label for="new_dancer">Add Dancer</label><input id="new_dancer" type="text"><button id="add_button">Add</button>
+            <label for="new_dancer">Add Dancer</label><input id="new_dancer" type="text" /><button class="btn btn-sm btn-success">Add</button>
           </p>
-
-          <h2>Available Dancers</h2>
-          <ul id="not_in_vip">
-
+          <ul id="available_dancers">
+            <label>Available Dancers</label>
+            <li class="list-group-item dancer">
+              <label>Name</label>
+              <button type="button" class="list-group-item-action edit">Edit</button>
+              <button type="button" class="list-group-item-action delete">Delete</button>
+              <button type="button" class="list-group-item-action half_hour">30 Minutes</button>
+              <button type="button" class="list-group-item-action full_hour">1 Hour</button>
+              <!-- <button type="button" class="list-group-item-action add_private">Add Private</button> add to tracking tools -->
+            </li>
           </ul>
-
-          <h2>Dancers in VIP</h2>
-          <ul id="in_vip">
-
+          <ul id="unavailable_dancers">
+            <label>Unavailable Dancers</label>
+            <li class="list-group-item dancer">
+              <label>Name</label>
+              <button type="button" class="list-group-item-action edit">Edit</button>
+              <button type="button" class="list-group-item-action delete">Delete</button>
+              <button type="button" class="list-group-item-action half_hour">30 Minutes</button>
+              <button type="button" class="list-group-item-action full_hour">1 Hour</button>
+              <!-- <button type="button" class="list-group-item-action add_private">Add Private</button> add to tracking tools -->
+            </li>
           </ul>
         </div>
         <div class="dance_tracking col-md-8">
