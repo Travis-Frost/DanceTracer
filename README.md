@@ -2,6 +2,8 @@ The project that I envision is well beyond my capabilities at the moment, howeve
 
 To view the live semi-end product goto https://travis-frost.github.io/DanceTracker/
 
+The list currently does not save once you leave the page.  Again, that will be something I address in the backend side of things.  There are also several other issues, but I'm going to tackle those at a later date as I am out of time.  That, and I have more creativity than I have skill.  
+
 # DanceTracer
 Entertainer Tracking System
 
