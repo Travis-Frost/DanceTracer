@@ -1,3 +1,7 @@
+The project that I envision is well beyond my capabilities at the moment, however, this is a good starting point and the following is still a solid representation of what I intend to create.  With out the back end programing knowledge I cut the project's scope to be a basic javascript list that allows a user to input, edit, delete, and move dancers from available to unavailable.  
+
+To view the live semi-end product goto https://travis-frost.github.io/DanceTracker/
+
 # DanceTracer
 Entertainer Tracking System
 
