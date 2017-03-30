@@ -58,10 +58,19 @@
     <div class="container">
 
       <div class="main_content row">
-        <div class="col-md-4">
-          <h1>Dancer List</h1>
-          <ul class="dancer_list">
-            <li class="entertainer_list_item">Name</li>
+        <div class="dancer_col col-md-4">
+          <p>
+            <label for="new_dancer">Add Dancer</label><input id="new_dancer" type="text"><button id="add_button">Add</button>
+          </p>
+
+          <h2>Available Dancers</h2>
+          <ul id="not_in_vip">
+
+          </ul>
+
+          <h2>Dancers in VIP</h2>
+          <ul id="in_vip">
+
           </ul>
         </div>
         <div class="spotify col-md-8">
